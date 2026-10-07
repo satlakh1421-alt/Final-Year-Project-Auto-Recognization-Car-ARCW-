@@ -6,7 +6,7 @@ An integrated smart car wash automation and vehicle recognition system developed
 - **Hardware Integration & Automation:** Communicates with microcontrollers and proximity/motion sensors to automate wash cycles and gate mechanisms.
 - **Centralized Web Dashboard:** Multi-role management interface to monitor wash bay status, manage queues, view transaction histories, and track system analytics in real time.
 - **Vehicle & Customer Tracking:** Records wash frequencies, package preferences, and entry/exit timestamps to improve service efficiency.
-- 
+
 ## 🛠️ System Architecture & Tech Stack
 - **Computer Vision & Processing:** Python, OpenCV, Tesseract OCR
 - **Web Interface:** HTML5, CSS3, JavaScript, PHP
@@ -37,13 +37,14 @@ Prerequisites
 git clone [https://github.com/satlakh1421-alt/Final-Year-Project-Auto-Recognization-Car-ARCW-.git](https://github.com/satlakh1421-alt/Final-Year-Project-Auto-Recognization-Car-ARCW-.git)
 cd Final-Year-Project-Auto-Recognization-Car-ARCW-
 2. **Database Configuration:**
-   - Launch your MySQL server via XAMPP.
-   - Import the SQL script found in database/ into a new database (e.g., arcw_db).
-   - Update your database credentials inside web_dashboard/api/config.php (or relevant config file).
+- Launch your MySQL server via XAMPP.
+- Import the SQL script found in database/ into a new database (e.g., arcw_db).
+- Update your database credentials inside web_dashboard/api/config.php (or relevant config file).
+
 3.  **Deploy Web Dashboard:**
-   - Move or symlink the web_dashboard/ directory into your local server root (e.g., htdocs/arcw).
-   - Access the dashboard at http://localhost/arcw.
-   - Run the Recognition Script:
+- Move or symlink the web_dashboard/ directory into your local server root (e.g., htdocs/arcw).
+- Access the dashboard at http://localhost/arcw.
+- Run the Recognition Script:
 
 **Install required Python dependencies:**
 pip install opencv-python pytesseract mysql-connector-python
