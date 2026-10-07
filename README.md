@@ -37,13 +37,13 @@ Prerequisites
 git clone [https://github.com/satlakh1421-alt/Final-Year-Project-Auto-Recognization-Car-ARCW-.git](https://github.com/satlakh1421-alt/Final-Year-Project-Auto-Recognization-Car-ARCW-.git)
 cd Final-Year-Project-Auto-Recognization-Car-ARCW-
 2. **Database Configuration:**
-3. Launch your MySQL server via XAMPP.
-4. Import the SQL script found in database/ into a new database (e.g., arcw_db).
-5.Update your database credentials inside web_dashboard/api/config.php (or relevant config file).
-6. Deploy Web Dashboard:
-7. Move or symlink the web_dashboard/ directory into your local server root (e.g., htdocs/arcw).
-8. Access the dashboard at http://localhost/arcw.
-9. Run the Recognition Script:
+   - Launch your MySQL server via XAMPP.
+   - Import the SQL script found in database/ into a new database (e.g., arcw_db).
+   - Update your database credentials inside web_dashboard/api/config.php (or relevant config file).
+3.  **Deploy Web Dashboard:**
+   - Move or symlink the web_dashboard/ directory into your local server root (e.g., htdocs/arcw).
+   - Access the dashboard at http://localhost/arcw.
+   - Run the Recognition Script:
 
 **Install required Python dependencies:**
 pip install opencv-python pytesseract mysql-connector-python
